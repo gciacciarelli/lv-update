@@ -1,17 +1,18 @@
 <project name="getAppsFromDistro" default="copyApps" basedir=".">
 	<description>
 		Download distro and copy it's apps into apps dir
+		TODO : steng apps
 	</description>
 	<taskdef resource="net/sf/antcontrib/antcontrib.properties"/>
 	
 	<property name="working.dir" value="${project.build.directory}/primeurDistro"/>
-	<property name="apps.dir" value="${working.dir}/apps"/>
+	<property name="ceman.apps.dir" value="${working.dir}/ceman_apps"/>
 		
 	<target name="checkPreconditions" description="Check if exist artifacts of other projects">
 		<available file="${working.dir}" type="dir" property="working.dir.exists"/>
 		<fail message="Dir not found: ${working.dir}. Create it before." unless="working.dir.exists"/>
-		<available file="${apps.dir}" type="dir" property="apps.dir.exists"/>
-		<fail message="Dir not found: ${apps.dir}. Create it before." unless="apps.dir.exists"/>
+		<available file="${ceman.apps.dir}" type="dir" property="ceman.apps.dir.exists"/>
+		<fail message="Dir not found: ${ceman.apps.dir}. Create it before." unless="ceman.apps.dir.exists"/>
 		<echo message="PASSED" />		
 	</target>
 	<target name="downloadDistro" depends="checkPreconditions">
@@ -22,7 +23,7 @@
 		<untar src="${working.dir}/ghibli-distro-ceman-3.0.6.tar.gz" dest="${working.dir}" compression="gzip" />
     </target>
 	<target name="copyApps" depends="untarDistro">
-		<copy todir="${apps.dir}">
+		<copy todir="${ceman.apps.dir}">
 			<fileset dir="${working.dir}/wlp/usr/servers/ceman/apps">
 				<include name="*.war"/>
 			</fileset>
