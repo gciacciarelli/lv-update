@@ -1,0 +1,151 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.primeur.levante</groupId>
+		<artifactId>Levante-parent</artifactId>
+		<version>2.0.0</version>
+	</parent>
+	<artifactId>Levante-update</artifactId>
+
+	<properties>
+		<ibm-liberty-software>/srv/ftp/DEVOPS/Levante/IBM-software</ibm-liberty-software>
+	</properties>
+
+	<distributionManagement>
+		<repository>
+			<id>setup</id>
+			<url>http://nexus.primeur.com/content/repositories/setup</url>
+		</repository>
+		<snapshotRepository>
+			<id>setup_snapshots</id>
+			<url>http://nexus.primeur.com/content/repositories/setup_snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
+	
+	<dependencies>
+
+		<dependency>
+			<groupId>com.primeur.levante</groupId>
+			<artifactId>Levante-utils</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+		<!-- common dependencies -->
+		<dependency>
+			<groupId>javax.xml</groupId>
+			<artifactId>jaxp-api</artifactId>
+			<version>1.4.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.7</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-text</artifactId>
+			<version>1.1</version>
+		</dependency>
+	</dependencies>
+
+	<!-- Platform dependent dependencies -->
+	<profiles>
+
+	</profiles>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.6.0</version>
+				<configuration>
+					<source>1.7</source>
+					<target>1.7</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<artifactId>maven-antrun-plugin</artifactId>
+				<version>1.8</version>
+				<executions>
+					<execution>
+						<phase>prepare-package</phase>
+						<configuration>
+							<tasks>
+								<tstamp>
+									<format property="time" pattern="MM/dd/yyyy hh:mm:ss aa" />
+								</tstamp>
+
+								<mkdir dir="${project.build.directory}/primeurDistro" />
+								<mkdir dir="${project.build.directory}/primeurDistro/apps" />
+
+								<!-- 
+								<taskdef name="scp"
+									classname="org.apache.tools.ant.taskdefs.optional.ssh.Scp">
+									<classpath refid="maven.plugin.classpath" />
+								</taskdef>
+								 -->
+
+<!-- 
+								<scp
+									file="devops_unattended:devops01@software.primeur.com:${ibm-liberty-software}/*"
+									todir="${project.build.directory}/primeurDistro/" trust="true">
+								</scp>
+ -->
+								<ant antfile="${basedir}/src/main/ant/getAppsFromDistro.xml" />
+								
+							</tasks>
+						</configuration>
+						<goals>
+							<goal>run</goal>
+						</goals>
+					</execution>
+				</executions>
+				<dependencies>
+					<dependency>
+						<groupId>ant</groupId>
+						<artifactId>ant-commons-net</artifactId>
+						<version>1.6.5</version>
+					</dependency>
+					<dependency>
+						<groupId>org.apache.ant</groupId>
+						<artifactId>ant-jsch</artifactId>
+						<version>1.9.1</version>
+					</dependency>
+					<dependency>
+						<groupId>ant-contrib</groupId>
+						<artifactId>ant-contrib</artifactId>
+						<version>1.0b3</version>
+						<exclusions>
+							<exclusion>
+								<artifactId>ant</artifactId>
+								<groupId>ant</groupId>
+							</exclusion>
+						</exclusions>
+					</dependency>
+				</dependencies>
+			</plugin>
+			
+			<plugin>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<version>2.6</version>
+				<executions>
+					<execution>
+						<id>make-assembly-config</id> 
+						<phase>package</phase> 
+						<goals>
+							<goal>single</goal>
+						</goals>
+                        <configuration>
+                            <descriptors>
+                                <descriptor>src/assembly/pkg-assembly.xml</descriptor>
+                            </descriptors>
+                        </configuration>
+					</execution>
+				</executions>
+			</plugin>
+			
+		</plugins>
+	</build>
+</project>
