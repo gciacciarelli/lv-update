@@ -13,11 +13,9 @@ public class UpdateBaseTestCase extends AbstractUpdateTest {
 	
 
 	@Test
-    public void testCopyDir() throws Exception {
-		File cemanApps = new File(ceman_apps);
-		File cemanAppsNew= new File(ceman_apps_new);
+    public void testApplyUpdate() throws Exception {
 		UpdateTask updateTask = new UpdateTask();
-		updateTask.apply(cemanAppsNew, cemanApps);
+		updateTask.apply(cemanUpdateApps, cemanLibertyApps);
     	System.out.println(">> testCopyDir OK");
     }
 

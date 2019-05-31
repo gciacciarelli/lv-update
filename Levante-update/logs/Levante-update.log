@@ -1,0 +1,84 @@
+2019-05-31 11:32:53,291 INFO  [main] update.UpdateTask (UpdateTask.java:40) - Starting Update Levante (component:ceman)
+2019-05-31 12:09:21,234 INFO  [main] update.UpdateTask (UpdateTask.java:40) - Starting Update Levante (component:ceman)
+2019-05-31 13:50:55,735 INFO  [main] update.UpdateTask (UpdateTask.java:40) - Starting Update Levante (component:ceman)
+2019-05-31 14:20:22,199 INFO  [main] update.UpdateTask (UpdateTask.java:40) - Starting Update Levante (component:ceman)
+2019-05-31 14:22:35,468 INFO  [main] update.UpdateTask (UpdateTask.java:40) - Starting Update Levante (component:ceman)
+2019-05-31 14:22:54,341 INFO  [main] update.UpdateTask (UpdateTask.java:40) - Starting Update Levante (component:ceman)
+2019-05-31 14:27:09,235 INFO  [main] update.UpdateTask (UpdateTask.java:40) - Starting Update Levante (component:ceman)
+2019-05-31 14:29:21,954 INFO  [main] update.UpdateTask (UpdateTask.java:40) - Starting Update Levante (component:ceman)
+2019-05-31 14:32:05,015 INFO  [main] update.UpdateTask (UpdateTask.java:40) - Starting Update Levante (component:ceman)
+2019-05-31 14:36:05,496 INFO  [main] update.UpdateTask (UpdateTask.java:40) - Starting Update Levante (component:ceman)
+2019-05-31 14:37:06,262 INFO  [main] update.UpdateTask (UpdateTask.java:40) - Starting Update Levante (component:ceman)
+2019-05-31 14:37:13,506 INFO  [main] update.UpdateTask (UpdateTask.java:40) - Starting Update Levante (component:ceman)
+2019-05-31 14:37:57,353 INFO  [main] update.UpdateTask (UpdateTask.java:40) - Starting Update Levante (component:ceman)
+2019-05-31 14:38:13,426 INFO  [main] update.UpdateTask (UpdateTask.java:40) - Starting Update Levante (component:ceman)
+2019-05-31 14:39:00,181 INFO  [main] update.UpdateTask (UpdateTask.java:40) - Starting Update Levante (component:ceman)
+2019-05-31 14:59:39,909 INFO  [main] update.UpdateTask (UpdateTask.java:40) - Starting Update Levante (component:ceman)
+2019-05-31 14:59:50,782 INFO  [main] update.UpdateTask (UpdateTask.java:40) - Starting Update Levante (component:ceman)
+2019-05-31 14:59:55,741 INFO  [main] update.UpdateTask (UpdateTask.java:40) - Starting Update Levante (component:ceman)
+2019-05-31 15:03:38,460 INFO  [main] update.UpdateTask (UpdateTask.java:40) - Starting Update Levante (component:ceman)
+2019-05-31 15:03:43,189 INFO  [main] update.UpdateTask (UpdateTask.java:40) - Starting Update Levante (component:ceman)
+2019-05-31 16:06:29,107 INFO  [main] update.UpdateTask (UpdateTask.java:40) - Starting Update Levante (component:ceman)
+2019-05-31 16:07:16,336 INFO  [main] update.UpdateTask (UpdateTask.java:40) - Starting Update Levante (component:ceman)
+2019-05-31 16:07:33,261 INFO  [main] update.UpdateTask (UpdateTask.java:40) - Starting Update Levante (component:ceman)
+2019-05-31 16:07:45,345 INFO  [main] update.UpdateTask (UpdateTask.java:40) - Starting Update Levante (component:ceman)
+2019-05-31 16:13:32,129 INFO  [main] update.UpdateTask (UpdateTask.java:40) - Starting Update Levante (component:ceman)
+2019-05-31 16:13:32,558 DEBUG [main] update.IoUtils (IoUtils.java:112) - NOT replaced: a3server.eba
+2019-05-31 16:13:32,709 DEBUG [main] update.IoUtils (IoUtils.java:109) - Replaced: agentlevante.war
+2019-05-31 16:13:32,799 DEBUG [main] update.IoUtils (IoUtils.java:112) - NOT replaced: ghibli-filebox.war
+2019-05-31 16:13:32,990 DEBUG [main] update.IoUtils (IoUtils.java:109) - Replaced: ghibli-rest.war
+2019-05-31 16:13:33,049 DEBUG [main] update.IoUtils (IoUtils.java:112) - NOT replaced: ghibli-speng-centralnode.war
+2019-05-31 16:13:33,114 DEBUG [main] update.IoUtils (IoUtils.java:112) - NOT replaced: ghibli-wui.war
+2019-05-31 16:13:33,122 DEBUG [main] update.IoUtils (IoUtils.java:112) - NOT replaced: ghip-centralnode.war
+2019-05-31 16:13:33,192 DEBUG [main] update.IoUtils (IoUtils.java:112) - NOT replaced: lev-wui.war
+2019-05-31 16:13:33,236 DEBUG [main] update.IoUtils (IoUtils.java:112) - NOT replaced: SpentModelerWeb.war
+2019-05-31 16:32:56,418 INFO  [main] update.UpdateTask (UpdateTask.java:51) - Starting Update Levante 
+2019-05-31 16:32:56,866 DEBUG [main] update.IoUtils (IoUtils.java:110) - NOT replaced: a3server.eba
+2019-05-31 16:32:57,009 DEBUG [main] update.IoUtils (IoUtils.java:108) - Replaced: agentlevante.war
+2019-05-31 16:32:57,098 DEBUG [main] update.IoUtils (IoUtils.java:110) - NOT replaced: ghibli-filebox.war
+2019-05-31 16:32:57,288 DEBUG [main] update.IoUtils (IoUtils.java:108) - Replaced: ghibli-rest.war
+2019-05-31 16:32:57,327 DEBUG [main] update.IoUtils (IoUtils.java:110) - NOT replaced: ghibli-speng-centralnode.war
+2019-05-31 16:32:57,389 DEBUG [main] update.IoUtils (IoUtils.java:110) - NOT replaced: ghibli-wui.war
+2019-05-31 16:32:57,396 DEBUG [main] update.IoUtils (IoUtils.java:110) - NOT replaced: ghip-centralnode.war
+2019-05-31 16:32:57,466 DEBUG [main] update.IoUtils (IoUtils.java:110) - NOT replaced: lev-wui.war
+2019-05-31 16:32:57,511 DEBUG [main] update.IoUtils (IoUtils.java:110) - NOT replaced: SpentModelerWeb.war
+2019-05-31 16:35:46,568 INFO  [main] update.UpdateTask (UpdateTask.java:51) - Starting Update Levante 
+2019-05-31 16:35:46,995 DEBUG [main] update.IoUtils (IoUtils.java:110) - NOT replaced: a3server.eba
+2019-05-31 16:35:47,149 DEBUG [main] update.IoUtils (IoUtils.java:108) - Replaced: agentlevante.war
+2019-05-31 16:35:47,233 DEBUG [main] update.IoUtils (IoUtils.java:110) - NOT replaced: ghibli-filebox.war
+2019-05-31 16:35:47,419 DEBUG [main] update.IoUtils (IoUtils.java:108) - Replaced: ghibli-rest.war
+2019-05-31 16:35:47,456 DEBUG [main] update.IoUtils (IoUtils.java:110) - NOT replaced: ghibli-speng-centralnode.war
+2019-05-31 16:35:47,558 DEBUG [main] update.IoUtils (IoUtils.java:110) - NOT replaced: ghibli-wui.war
+2019-05-31 16:35:47,567 DEBUG [main] update.IoUtils (IoUtils.java:110) - NOT replaced: ghip-centralnode.war
+2019-05-31 16:35:47,638 DEBUG [main] update.IoUtils (IoUtils.java:110) - NOT replaced: lev-wui.war
+2019-05-31 16:35:47,683 DEBUG [main] update.IoUtils (IoUtils.java:110) - NOT replaced: SpentModelerWeb.war
+2019-05-31 16:36:33,974 INFO  [main] update.UpdateTask (UpdateTask.java:51) - Starting Update Levante 
+2019-05-31 16:36:34,405 DEBUG [main] update.IoUtils (IoUtils.java:110) - NOT replaced: a3server.eba
+2019-05-31 16:36:34,558 DEBUG [main] update.IoUtils (IoUtils.java:108) - Replaced: agentlevante.war
+2019-05-31 16:36:34,646 DEBUG [main] update.IoUtils (IoUtils.java:110) - NOT replaced: ghibli-filebox.war
+2019-05-31 16:36:34,831 DEBUG [main] update.IoUtils (IoUtils.java:108) - Replaced: ghibli-rest.war
+2019-05-31 16:36:34,867 DEBUG [main] update.IoUtils (IoUtils.java:110) - NOT replaced: ghibli-speng-centralnode.war
+2019-05-31 16:36:34,927 DEBUG [main] update.IoUtils (IoUtils.java:110) - NOT replaced: ghibli-wui.war
+2019-05-31 16:36:34,934 DEBUG [main] update.IoUtils (IoUtils.java:110) - NOT replaced: ghip-centralnode.war
+2019-05-31 16:36:35,006 DEBUG [main] update.IoUtils (IoUtils.java:110) - NOT replaced: lev-wui.war
+2019-05-31 16:36:35,053 DEBUG [main] update.IoUtils (IoUtils.java:110) - NOT replaced: SpentModelerWeb.war
+2019-05-31 16:51:02,093 INFO  [main] update.UpdateTask (UpdateTask.java:51) - Starting Update Levante 
+2019-05-31 16:51:02,516 DEBUG [main] update.IoUtils (IoUtils.java:110) - NOT replaced: a3server.eba
+2019-05-31 16:51:02,659 DEBUG [main] update.IoUtils (IoUtils.java:108) - Replaced: agentlevante.war
+2019-05-31 16:51:02,748 DEBUG [main] update.IoUtils (IoUtils.java:110) - NOT replaced: ghibli-filebox.war
+2019-05-31 16:51:02,934 DEBUG [main] update.IoUtils (IoUtils.java:108) - Replaced: ghibli-rest.war
+2019-05-31 16:51:02,971 DEBUG [main] update.IoUtils (IoUtils.java:110) - NOT replaced: ghibli-speng-centralnode.war
+2019-05-31 16:51:03,032 DEBUG [main] update.IoUtils (IoUtils.java:110) - NOT replaced: ghibli-wui.war
+2019-05-31 16:51:03,039 DEBUG [main] update.IoUtils (IoUtils.java:110) - NOT replaced: ghip-centralnode.war
+2019-05-31 16:51:03,114 DEBUG [main] update.IoUtils (IoUtils.java:110) - NOT replaced: lev-wui.war
+2019-05-31 16:51:03,159 DEBUG [main] update.IoUtils (IoUtils.java:110) - NOT replaced: SpentModelerWeb.war
+2019-05-31 16:53:00,846 INFO  [main] update.UpdateTask (UpdateTask.java:51) - Starting Update Levante 
+2019-05-31 16:53:01,264 DEBUG [main] update.IoUtils (IoUtils.java:110) - NOT replaced: a3server.eba
+2019-05-31 16:53:01,421 DEBUG [main] update.IoUtils (IoUtils.java:108) - Replaced: agentlevante.war
+2019-05-31 16:53:01,510 DEBUG [main] update.IoUtils (IoUtils.java:110) - NOT replaced: ghibli-filebox.war
+2019-05-31 16:53:01,700 DEBUG [main] update.IoUtils (IoUtils.java:108) - Replaced: ghibli-rest.war
+2019-05-31 16:53:01,738 DEBUG [main] update.IoUtils (IoUtils.java:110) - NOT replaced: ghibli-speng-centralnode.war
+2019-05-31 16:53:01,800 DEBUG [main] update.IoUtils (IoUtils.java:110) - NOT replaced: ghibli-wui.war
+2019-05-31 16:53:01,807 DEBUG [main] update.IoUtils (IoUtils.java:110) - NOT replaced: ghip-centralnode.war
+2019-05-31 16:53:01,878 DEBUG [main] update.IoUtils (IoUtils.java:110) - NOT replaced: lev-wui.war
+2019-05-31 16:53:01,922 DEBUG [main] update.IoUtils (IoUtils.java:110) - NOT replaced: SpentModelerWeb.war

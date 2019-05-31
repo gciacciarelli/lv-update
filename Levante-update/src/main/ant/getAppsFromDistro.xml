@@ -5,8 +5,10 @@
 	</description>
 	<taskdef resource="net/sf/antcontrib/antcontrib.properties"/>
 	
-	<property name="working.dir" value="${project.build.directory}/primeurDistro"/>
-	<property name="ceman.apps.dir" value="${working.dir}/ceman_apps"/>
+	<!-- <property name="working.dir" value="${project.build.directory}/primeur-distro"/> -->
+	<property name="working.dir" value="${project.build.directory}/primeur-distro"/>
+	<property name="ceman.apps.dir" value="${basedir}/apps/ceman"/>
+	<property name="steng.apps.dir" value="${basedir}/apps/steng"/>
 		
 	<target name="checkPreconditions" description="Check if exist artifacts of other projects">
 		<available file="${working.dir}" type="dir" property="working.dir.exists"/>

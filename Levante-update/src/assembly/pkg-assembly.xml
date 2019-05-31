@@ -20,7 +20,7 @@
 	</dependencySets>
 	<fileSets>
     	<fileSet>
-        	<directory>${project.build.directory}/primeurDistro/apps</directory>
+        	<directory>${basedir}/apps</directory>
         	<outputDirectory>apps</outputDirectory>
     	</fileSet>
 	</fileSets>
